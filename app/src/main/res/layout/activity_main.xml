@@ -11,7 +11,8 @@
         android:id="@+id/titleText"
         android:layout_width="match_parent"
         android:layout_height="35dp"
-        android:text="TextView"
+        android:text="Guuses a number between 0 to 10"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

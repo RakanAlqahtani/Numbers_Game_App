@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             )
 
             .setPositiveButton("Yes") { _, _ ->
-                print("Work!!!")
+                this.recreate()
             }.setNegativeButton("No") { _, _ ->
                 print("Work!!!")
             }.create()
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             )
 
             .setPositiveButton("Yes") { _, _ ->
-                print("Work!!!")
+                this.recreate()
             }.setNegativeButton("No") { _, _ ->
                 print("Work!!!")
             }.create()
@@ -94,5 +94,11 @@ class MainActivity : AppCompatActivity() {
 
         myRV.adapter = myAdapter
 
+
+
+
     }
+
+
+
 }
